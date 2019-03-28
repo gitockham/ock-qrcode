@@ -1,14 +1,14 @@
 {
-  "name": "ark-qrcode",
-  "version": "0.0.7",
-  "description": "A web component to generate QR codes for ARK payments.",
-  "main": "dist/arkqrcode.js",
+  "name": "ock-qrcode",
+  "version": "0.0.1",
+  "description": "A web component to generate QR codes for OCKHAM payments.",
+  "main": "dist/ockqrcode.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
-  "browser": "dist/arkqrcode.js",
+  "browser": "dist/ockqrcode.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
